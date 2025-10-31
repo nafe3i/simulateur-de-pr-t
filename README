@@ -1,0 +1,25 @@
+GoMoney – Simulateur de prêts
+
+Description :
+GoMoney est une application web simple permettant aux utilisateurs de simuler des prêts selon différents types (maison,
+appartement, terrain, entreprise, cash). L’utilisateur saisit le montant, la durée et son salaire, et l’application calcule
+automatiquement la mensualité, les intérêts et le total à rembourser. L’application vérifie également si la mensualité
+dépasse 40% du salaire. Les résultats sont sauvegardés localement grâce à LocalStorage pour garder les données même
+après un rafraîchissement de la page.
+
+Technologies utilisées
+
+HTML5
+
+CSS3 (Tailwind CSS pour le design responsive)
+
+JavaScript 
+
+
+gomoney/
+│
+├─ inde.html       # Page principale
+├─ ind.js           # Script JavaScript pour le calcul 
+├─ output.css       # Fichier CSS généré avec Tailwind
+├─ iconmoney.png    # Icône/logo de l'application
+└─ README.md        # Documentation du projet
